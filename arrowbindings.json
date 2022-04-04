@@ -1,0 +1,73 @@
+[
+  {
+    "key": "ctrl+j",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "list.collapse",
+    "when": "listFocus && !textInputFocu"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "list.expand",
+    "when": "listFocus && !textInputFocu"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "cursorUp",
+    "when": "textInputFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "list.focusUp",
+    "when": "listFocus && !textInputFocu"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "cursorDown",
+    "when": "textInputFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "list.focusDown",
+    "when": "listFocus && !textInputFocu"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "cursorWordRight",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "ctrl+u",
+    "command": "cursorWordLeft",
+    "when": "textInputFocus"
+  }
+]
